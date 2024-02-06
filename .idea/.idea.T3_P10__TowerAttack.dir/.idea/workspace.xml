@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment="" />
+    <list default="true" id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Items/BP_Explosive.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Items/BP_Explosive.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2bzGEDgVsdzhGU3dmoO2ZtlYmF4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,16 +26,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\thoma\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\thoma\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\thoma\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment="" />
       <created>1707210383277</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707210383277</updated>
       <workItem from="1707210384689" duration="1000" />
+      <workItem from="1707215036825" duration="191000" />
     </task>
     <servers />
   </component>
