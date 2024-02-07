@@ -4,11 +4,186 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment="" />
+    <list default="true" id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment=":feat: ($Inputs) : Add player sprint">
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/Exercises/MI_TransparentBlinking.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/Exercises/M_BlendDependingPlayerDistance.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/Exercises/M_DepthFade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/Exercises/M_TransparentBlinking.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/Exercises/M_UnlitTexture.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/Exercises/M_UnlitVertexColor.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/MI_BlendingTextureOnTop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/MI_Reference.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/MPC_Demo.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/M_BlendingTextureOnTop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/M_DitheringEffect.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/M_DitheringFade.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/M_EmissiveBlocks.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Art/Materials/M_Reference.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_AttackManager.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Exercises/BP_ProceduralMesh.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Inputs/Actions/IA_Sprint.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Scenes/Sandbox/HugoSandbox.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Textures/T_Cliff_BaseColor.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Textures/T_Distortion.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Textures/T_Grass_BaseColor.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Game/Textures/T_Simpsons.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/StaticMesh.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/1F/LY001VFM7Z7LPSL8Q9AFLJ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/88/NP5MSU6QJ4Z8TOEENDWVND.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/AR/GJKILD0GWAMUNFAJWY1I7J.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/DQ/CKC9LV1QGQO6QM9B043XGX.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/FQ/PXXN650TX80VSH2K2Z7J6J.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/HH/VVUV5KYQPIN26285FAINNW.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/K8/P656EHV4Y13HVO7TE0O0PB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/MZ/MZKHAXCGOSHHCMN37VSRPP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/Q0/FYAU6OYYWR2MUXQITHJPTE.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/RH/RR4DNSDGSDTQ6HMKIK57NK.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/S1/1BWMQGBTVKL6GOHUU9MU97.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/UR/SVAYSEAQXMYS98JUPJRKLJ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/VA/W3CO87Z4RCJKSNKSLZ9R31.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/0/VR/VKC2P78RH7LD2P3LN9W5O8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/3W/GU7CCBUYE227LA6L74H999.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/M3/3Q3YF9MPWHYM45GEV17O16.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/Q9/MGU30FT2G6Q5W157BW47RV.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/RC/R3ERI63BGLMV0R16FSHXPZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/RG/2UKBHPZ1WR4IKONN1LQUTI.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/RO/XVJ2W1E85DULCZ070MSK5E.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/U4/PUMINLJZ5GHEAEQS7UTX99.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/V5/DZEH0Y3CYVVCY0CI5TE3BU.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/1/WR/LR2NI76RN8HNTPSGPCPLIC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/0G/L2A42K9DHY0HLZ6R0VXIVW.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/4Y/EEN9RA1VQ4LC9H4JC83KPM.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/KN/K1SY8HC96KSLG0W3ONM3O3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/OM/XTHMKWWT0NX0HA779TXERB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/RJ/TUM38K3IOWCNRGRQLNRGIC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/UJ/YQ6SK9BX85Z3KEX8BDW249.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/V4/F67E41CURMEYKSL447BEZ8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/XX/RGOEWARBYHHGCKE2DFUNTQ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/2/ZW/JDXL3CK42E0M6LH7XEQD2E.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/05/D6ZCCZDUVOFJBOZ4EJCK1D.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/2N/YPJ9M1NLZ1WEHBDCZI2YOG.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/32/FC2TCEI80CDDWWS08MV67G.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/4S/SINOQOELV0LD373MQZP2Y0.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/5E/W4J48LASNE4KQ5ZDSA8H5R.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/7L/N50JYQJQEXGEW9F5JDTYB6.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/FC/UVH57KG6W4LYX989K5XK0P.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/FY/LD31XRP3JFUGJYN3TCCA9F.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/OP/QS96FUK2GD9U7HU9RU7JY3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/3/VV/KNC4DODXTL6D35V9KLL3VY.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/4/7E/5JSP8NBFGQDCFCRNG38DCL.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/4/B6/OEO0HSYZJJCI4Y2S7PXFRV.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/4/HO/0XWPQUNG9AUX84XOBTSQDS.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/4/SW/C2C97UMVPDI1PYFPEQBUZX.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/4/UM/KYLCCQR7RZ3OPJYTY3ORHZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/5/35/Y3AIF0XIGOM7KQGM7UZ62R.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/5/46/M3NZ608B3YXXQBVEZEQEBD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/5/AG/LSHX9CIK36RBZF39Q5QJXO.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/5/B9/C44IHSPDEU1A4NS3O91OEI.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/5/OM/RXDRNB4MJ37JYCNA4I7598.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/6/AD/P3K0XIS0YJRYG9XD8O8PA3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/6/D3/LAKNCH73BXAX5OZPBB7D7X.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/6/O7/T4B18UX89YP1NX3O1J5QSW.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/6/SW/3CENDIE6PF6LONEJ5RFMRT.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/6/X1/KVL5WJONE3R95WP92GSCIR.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/CI/J99L57GVX20DS7LJSDK1JX.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/GG/4OU81IZQ0ENEZGIKEN98G4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/JW/2I1430PHI4D93CUJAH97PK.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/O4/TV5B0J8ELJ8XSQ3BCO6799.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/PK/MN3Z30BXSWRCNLSA7LO7XN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/R8/DXRVTM3HBDDRPNSGXEYOUN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/YT/SRZ6I94MA5USBQBPJSILZT.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/7/Z8/30QNLVOUF23HLE1BACTD9R.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/2Z/ZXGDHRXEBF20IXZY5Y4NB2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/4L/H45EQX9E0RXV0B3GGSQMFC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/5A/00QJJZB8EHK7O8U1248DZR.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/6B/GXLPV5TYZOM2GQNZM0OGIZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/AK/B122HT7S71E7CTCYAR1YA4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/D5/D8PWH52TLCB6BB3D1PYX74.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/G3/33CHI3JVREDKLPS0RYULMP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/PC/ECPLI5H2EZIQAVRIF42LHR.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/QD/3TM47E6S9KDW8FDC0T1EUP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/VR/G89NM3YG7BB8J2O382ILLT.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/8/XV/29NVP9TIIJ6VGPWSW465GA.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/0T/JQFUBE51RST9K72ZXCP3OD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/7S/5TSLSTBAGLQSZSDHWL2P9T.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/BM/JUSGHPVRB8BQJSEZ6RFK44.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/E3/TVNOTW03NSDETPHQMNKMWG.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/FH/JQ5LN6CMB2KU6IRLXFEBCO.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/TJ/IVXK3A0CFNPSS92RY9TGEG.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/X9/FDB4R7ASMT3EALHPQ26WO4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/9/YV/DXW71T1VSV3Z8OZJ281TT2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/04/QPB7HQW6N8Y02C14GJA0C5.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/3J/0X2UBNO0COGP14P85T3L2W.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/7I/I4KQ31ZV9YBHSFEOCAD6O3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/7Y/Y2C73MR8RAJSWM1VK55ESG.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/AD/EHRB1HNIBFWJL06ICHL8VD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/AI/ZDEVLS67YR47OLO72OLIPP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/CT/PA4W8YQOQWFGE4MJZ8C9LN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/D9/9WEXQ8KZ4GNWBW8ZGOJVPR.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/DC/9JEVYJF9HXTL06TAHHP56L.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/FU/X8VLWNZKBCO8CLLN5CEE9W.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/A/WY/XX7ZC445UZWNA2IO2JEN0X.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/B/3A/AIZTPESYD504389ZILWGQO.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/B/5Q/CA6X2NMOQGXKT4LYYOJIW6.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/B/FX/4U1SYE7SEYS0M86VVNNQVC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/B/UX/LOF8ZCO6VY1U6KC31GFUM3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/5U/UPV8CZEBYNB7PW1ONZW7ZW.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/6U/EIA6IW46ONE6OB6USP4FIT.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/DA/XIEB40ROX9UP9C4GGP1PLY.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/DA/Y3H9XNUM30F9HFWGRIED3G.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/FS/NU61O8IU4T7U1HHM0FNP1Z.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/H0/L7IITLB33LPIF2HY7QZF3L.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/IJ/1XXYYOF9TUJA4R29T7DHTV.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/J8/YZCJLXI7IBNIDTI0GB3ATN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/WA/W0LRG49B9ER4UXJI0TMMBO.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/C/XT/4E96ZIGEFYWVCMY3SGG9UJ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/D/3E/VG2QMZCJLZL3Q9SXTWGMD7.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/D/4F/CWY078KNXDMRUL9VD229CY.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/D/CH/BTS6N8D85IQW1Q7DA7133O.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/D/EM/7R9LSMTXOXTGV9SAOFSQP7.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/18/18E22JB4YJHG1RB7725GYU.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/1Y/GHNZNJMO7WV9E3OOH9Z6SG.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/32/6C5SXGNL2B40HZ7XFU9FW0.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/8C/9UGUR1JRYZJRBRTSWIJMY2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/90/QI6Y1DIVCHHVGTSA5VBZU4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/EK/DWTF6PZ11BKFMEM9WD6U1Q.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/HM/SFOT809DXJ4P2QFLZXM8HK.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/OP/H0XVH5MLZDM2HJBCEJFVS3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/TX/JH67BBB9LSJKLC8LC6BABN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/V0/04YWBCQIMOJV4KWD69FIRD.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/WY/IT23QJDLO7LU5P5DS44DNP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/E/Y8/MCHYHG65HLS63O6U7Y0529.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/F/40/Z9Q1JHIYPYNHR0EQSURQL3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/HugoSandbox/F/4G/CGO1K459DT09BDQ1O9XUS6.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Game/Scenes/Sandbox/HugoSandbox/0/JM/2E3TL3527OVERCLVD3VGOM.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Game/Scenes/Sandbox/HugoSandbox/2/HA/YHWDJQITY8RFAJAZENH4DZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Game/Scenes/Sandbox/HugoSandbox/5/1A/QJC4BVOE3RZYMDJ2DY1QS5.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Game/Scenes/Sandbox/HugoSandbox/A/2S/QU72D51R6SZRW7MD1ZUGN8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Game/Scenes/Sandbox/HugoSandbox/A/CU/T0YTP3WLGHSKG6JRMNOUQ9.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Game/Scenes/Sandbox/HugoSandbox/D/93/CJDDJO04XS77TG6AY39RXK.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/BP_CharacterBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/BP_CharacterBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/Animations/BS_Locomotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/Animations/BS_Locomotion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Andre.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Andre.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Scotty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Scotty.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Inputs/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Inputs/IMC_Default.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Basic_Floor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Materials/M_Basic_Floor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Materials/M_EnemyGoblin_01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Materials/M_EnemyGoblin_01.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_01_D.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_01_D.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_01_R.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_01_R.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_E.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_E.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/UndeadPack/EnemyGoblin/Textures/T_EG_N.uasset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +211,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "Merging master"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
@@ -58,6 +233,7 @@
       <workItem from="1707215036825" duration="191000" />
       <workItem from="1707228569424" duration="594000" />
       <workItem from="1707292659377" duration="112000" />
+      <workItem from="1707299731099" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary=":feat: ($Scotty) : Working on scotty animation">
       <option name="closed" value="true" />
@@ -84,6 +260,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value=":feat: ($Scotty) : Working on scotty animation" />
     <MESSAGE value=" ($Scotty) : Working on scotty animation" />
-    <option name="LAST_COMMIT_MESSAGE" value=" ($Scotty) : Working on scotty animation" />
+    <MESSAGE value=":feat: ($Inputs) : Add player sprint" />
+    <option name="LAST_COMMIT_MESSAGE" value=":feat: ($Inputs) : Add player sprint" />
   </component>
 </project>
