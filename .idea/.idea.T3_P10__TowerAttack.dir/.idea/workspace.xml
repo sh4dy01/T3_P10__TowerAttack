@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment=":feat: ($Inputs) : Add player sprint">
-      <change afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_CharacterManager.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.T3_P10__TowerAttack.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.T3_P10__TowerAttack.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/BP_BasePlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_BasePlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/BP_CharacterSwitcher.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_CharacterSwitcher.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/BP_TowerAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_TowerAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/Animations/AB_Scotty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/Animations/AB_Scotty.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Scotty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Scotty.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Items/BP_Explosive.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Items/BP_Explosive.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/ThomasSandbox/1/BM/LAELJ6EWYO2Q0W687WB6UD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/ThomasSandbox/1/BM/LAELJ6EWYO2Q0W687WB6UD.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T3_P10__TowerAttack.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/T3_P10__TowerAttack.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
       <workItem from="1707299731099" duration="309000" />
       <workItem from="1707300455566" duration="51000" />
       <workItem from="1707300529095" duration="28000" />
+      <workItem from="1707390512584" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary=":feat: ($Scotty) : Working on scotty animation">
       <option name="closed" value="true" />
