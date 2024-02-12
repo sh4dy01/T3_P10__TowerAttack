@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8821b5-5174-4cd4-9491-503b64fecf08" name="Changes" comment=":feat: ($Inputs) : Add player sprint">
-      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/Animations/AB_Scotty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/Animations/AB_Scotty.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Scotty.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Scotty/BP_Scotty.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Items/BP_Explosive.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Items/BP_Explosive.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/ThomasSandbox/1/BM/LAELJ6EWYO2Q0W687WB6UD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Game/Scenes/Sandbox/ThomasSandbox/1/BM/LAELJ6EWYO2Q0W687WB6UD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/T3_P10__TowerAttack.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/T3_P10__TowerAttack.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/BP_BasePlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_BasePlayerController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/BP_CharacterManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_CharacterManager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/BP_TowerAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/BP_TowerAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Andre/BP_Andre.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/Andre/BP_Andre.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/BP_CharacterBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Characters/BP_CharacterBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Components/Attacks/Base/BPC_ComboAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Components/Attacks/Base/BPC_ComboAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Game/Blueprints/Components/Attacks/Characters/Andre/BPC_Propulsion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Game/Blueprints/Components/Attacks/Characters/Andre/BPC_Propulsion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Cliffs/Cliff_A_Cliff_A.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Cliffs/Cliff_A_Cliff_A.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Cliffs/Cliff_C_Cliff_C.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Cliffs/Cliff_C_Cliff_C.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Cliffs/Cliff_V_Cliff_V_child.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Cliffs/Cliff_V_Cliff_V_child.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Blocky/Rock_Blocky_B_Rock_Blocky_B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Blocky/Rock_Blocky_B_Rock_Blocky_B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Blocky/Rock_Bridge_B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Blocky/Rock_Bridge_B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Platform/Rock_Platform_C.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Platform/Rock_Platform_C.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Platform/Rock_Platform_D.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Platform/Rock_Platform_D.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Sharp/Rock_Sharp_E.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Sharp/Rock_Sharp_E.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Sharp/Rock_Sharp_I.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Rocks/Rock_Sharp/Rock_Sharp_I.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Stones/Smalls/Stone_Small_D.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdParty/PolyquestWorlds/Stones/Smalls/Stone_Small_D.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +88,7 @@
       <workItem from="1707300529095" duration="28000" />
       <workItem from="1707390512584" duration="6000" />
       <workItem from="1707410549486" duration="1000" />
+      <workItem from="1707760164340" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary=":feat: ($Scotty) : Working on scotty animation">
       <option name="closed" value="true" />
